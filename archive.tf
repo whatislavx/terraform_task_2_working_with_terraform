@@ -1,5 +1,5 @@
 data "archive_file" "terraform_code_archive" {
-  type        = "tar"
+  type        = "tar.gz"
   output_path = "${path.module}/terraform-project.tar.gz"
 
   source_dir = path.module
